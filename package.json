@@ -1,0 +1,25 @@
+{
+    "author": "muli",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "moment": "^2.29.1",
+        "moment-timezone": "^0.5.33",
+        "mongodb": "^4.1.2",
+        "request": "^2.88.2",
+        "restify": "^8.5.1",
+        "spellchecker": "^3.7.1",
+        "twilio": "^3.67.0",
+        "url": "^0.11.0"
+    },
+    "description": "",
+    "devDependencies": {},
+    "license": "ISC",
+    "main": "index.js",
+    "name": "random",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "version": "1.0.0"
+}
