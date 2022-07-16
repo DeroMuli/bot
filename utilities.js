@@ -1,5 +1,5 @@
 ﻿let util = require("util");
-const key = '48cf1b9b3a3f9abd2170a9d35334b51e';
+const key = 'footbal api key';
 let request = require("request");
 let moment = require("moment-timezone");
 let MongoClient = require('mongodb').MongoClient;
@@ -17,7 +17,7 @@ function sendmessage(msg,num) {
         method: 'POST',
         url: 'https://waba.360dialog.io/v1/messages/',
         headers: {
-            'D360-Api-Key': "XSVDjQ5CPpve4MRjIA97euEpAK",
+            'D360-Api-Key': "Your key",
         },
         body: {
             to : num,
