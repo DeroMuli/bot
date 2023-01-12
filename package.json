@@ -1,25 +1,32 @@
 {
-    "author": "muli",
-    "dependencies": {
-        "axios": "^0.21.1",
-        "body-parser": "^1.19.0",
-        "express": "^4.17.1",
-        "moment": "^2.29.1",
-        "moment-timezone": "^0.5.33",
-        "mongodb": "^4.1.2",
-        "request": "^2.88.2",
-        "restify": "^8.5.1",
-        "spellchecker": "^3.7.1",
-        "twilio": "^3.67.0",
-        "url": "^0.11.0",
-        "winston": "^3.8.2"
-    },
-    "description": "",
-    "license": "ISC",
-    "main": "index.js",
-    "name": "random",
-    "scripts": {
-        "start": "node index.js"
-    },
-    "version": "1.0.0"
+  "author": "muli",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "mongodb": "^4.1.2",
+    "request": "^2.88.2",
+    "restify": "^8.5.1",
+    "spellchecker": "^3.7.1",
+    "twilio": "^3.67.0",
+    "url": "^0.11.0",
+    "winston": "^3.8.2"
+  },
+  "description": "",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "random",
+  "scripts": {
+    "start": "node index.js",
+    "prepare": "husky install",
+    "precommit": "pretty-quick --staged"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "prettier": "^2.8.2",
+    "pretty-quick": "^3.1.3"
+  }
 }
