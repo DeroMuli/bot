@@ -1,5 +1,5 @@
-const {createLogger} = require("winston")
+const { createLogger } = require("winston");
 
-const Logger = createLogger()
+const Logger = createLogger();
 
-export default Logger
+export default Logger;

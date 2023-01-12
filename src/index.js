@@ -13,17 +13,17 @@ global.DBNAME = [];
 let port = process.env.PORT || 8080;
 let app = express();
 app.use(
-    express.urlencoded({
-        extended: false
-    })
+  express.urlencoded({
+    extended: false,
+  })
 );
 app.use(express.json());
 cleaner();
-app.use('/', mainrouter);
-app.use('/leugue', leaguerouter);
-app.use('/player', playerrouter);
-app.use('/live', liverouter);
-app.use('/team', teamrouter);
-app.use('/short', coderouter);
-app.use('/competition', competionsrouter);
+app.use("/", mainrouter);
+app.use("/leugue", leaguerouter);
+app.use("/player", playerrouter);
+app.use("/live", liverouter);
+app.use("/team", teamrouter);
+app.use("/short", coderouter);
+app.use("/competition", competionsrouter);
 app.listen(port);
