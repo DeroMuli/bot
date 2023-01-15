@@ -8,7 +8,7 @@
     "moment-timezone": "^0.5.33",
     "mongodb": "^4.1.2",
     "request": "^2.88.2",
-    "restify": "^8.5.1",
+    "restify": "^10.0.0",
     "spellchecker": "^3.7.1",
     "twilio": "^3.67.0",
     "url": "^0.11.0",
